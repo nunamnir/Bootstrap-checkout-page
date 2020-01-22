@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    /*outline: 1px solid red;*/
+}
+
+body {
+    /*background-color: #f2f2f2;*/
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Open Sans', serif;
+}
+
+.custom-field { height: 54px;}
+
+.nav-link {
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.btn-light:focus, .btn-light.focus {
+    color: #212529;
+    background-color: transparent;
+    border-color: #dae0e5;
+    box-shadow: 0 0 0 0.2rem rgba(108, 205, 108, 0.5);
+}
+
+.btn-success {
+    background: #62C02C;
+    border-color: #62C02C;
+    font-size: 14px;
+}
+
+.opacity-07 {
+    opacity: 0.7;
+}
+
+.color-secondary {
+    color: #62C02C;
+}
+.color-primary {
+    color: #0C2564;
+}
+.color-common {
+    color: #BBBBBB;
+}
+.color-download {
+    background-color: #669900;
+}
+.color-buy {
+    background-color: #99cc00;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.custom-margin {
+    margin-right: 30px;
+}
+
+@media (max-width: 990px) {
+    .custom-margin {
+        margin-right: 0;
+    }
+    .flex-button {
+        width: 50%;
+    }
+    .flex-resp {
+        flex-direction: column;
+    }
+}

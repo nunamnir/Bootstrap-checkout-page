@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Bootstrap Checkout</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/engine.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="d-flex shadow border bg-white flex-resp">
+            <nav class="navbar navbar-expand-md navbar-light bg-light text-uppercase p-1 rounded flex-grow-1">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item border-right">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown border-right">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Features
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown border-right">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                How to use
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item border-right">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Historical Data</a>
+                        </li>
+                        <li class="nav-item border-right">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Forum</a>
+                        </li>
+                        <li class="nav-item border-right dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Affiliates
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="d-flex w-100">
+                <button type="button" class="d-block btn btn-success color-download border border-info text-uppercase text-white rounded-0 ml-auto flex-button">
+                    Download
+                </button>
+                <button type="button" class="d-block btn btn-success color-buy border border-info text-uppercase text-white rounded-0 flex-button">
+                    Buy
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="container mt-4 mb-4 btn d-block">
+    <img src="assets/images/mainAdd.png" class="img-fluid w-100" alt="Responsive image">
+</section>
+
+<main class="container">
+    <section class="row mx-0 mb-5">
+        <div class="col-lg-7 px-0 custom-margin">
+            <form action="">
+                <div class="p-4 border rounded mb-5">
+                    <div class="row mx-0 d-block">
+                        <span class="badge badge-secondary"
+                              style="font-size: 16px;
+                              padding: 10px 13px;
+                              background: #221E8A;">1</span>
+                        <span class="font-weight-bold ml-3 font-size-18">Billing information</span>
+                    </div>
+                    <div class="row mx-0 mt-3">
+                        <div class="row mx-0 w-100">
+                            <div class="font-weight-bold text-muted font-size-12 opacity-07">Full name</div>
+                            <span class="ml-auto">
+                                <input class="rounded d-block" type="checkbox" style="width: 20px; height: 20px;" aria-label="Checkbox for following text input">
+                            </span>
+                            <div class="text-muted ml-2 font-size-12 opacity-07">Business purchase</div>
+                        </div>
+                        <div class="input-group mt-2">
+                            <input type="text"
+                                   class="form-control custom-field border"
+                                   placeholder="Username"
+                                   aria-label="Username"
+                                   aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="row mx-0 mt-3">
+                        <div class="row mx-0 w-100">
+                            <div class="font-weight-bold text-muted font-size-12 opacity-07">Email</div>
+                            <span class="ml-auto">
+                                    <input class="rounded d-block" type="checkbox" style="width: 20px; height: 20px;" aria-label="Checkbox for following text input">
+                                </span>
+                            <div class="text-muted ml-2 font-size-12 opacity-07">License for another person</div>
+                        </div>
+                        <div class="input-group mt-1">
+                            <input type="text"
+                                   class="form-control custom-field border"
+                                   placeholder="example@gmail.com"
+                                   aria-label="mail"
+                                   aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="row mx-0 mt-3">
+                        <div class="font-weight-bold text-muted font-size-12 opacity-07">Country</div>
+                        <div class="input-group mt-1">
+                            <select class="custom-select  rounded border custom-field" id="inputGroupSelect01">
+                                <option selected>Ukraine</option>
+                                <option value="1">Variable 1</option>
+                                <option value="2">Variable 2</option>
+                                <option value="3">Variable 3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <hr class="my-4" style="border-style: dotted;">
+                    <div class="row mx-0 d-block">
+                        <span class="badge badge-secondary"
+                              style="font-size: 16px;
+                              padding: 10px 13px;
+                              background: #221E8A;">2</span>
+                        <span class="font-weight-bold ml-3 font-size-18">Payment method</span>
+                    </div>
+                    <div class="row mx-0 mt-3">
+                        <div class="input-group mt-2">
+                            <div class="input-group-append w-100" style="height: 54px;">
+                                <button type="button" class="d-flex justify-content-center align-items-center p-1 border btn btn btn-light flex-grow-1 w-100 rounded-left" autofocus>
+                                    <img alt="masterCard" src="assets/images/masterCard.png" class="mw-100">
+                                    <img alt="visa" src="assets/images/visa.png" class="mw-100">
+                                </button>
+                                <button type="button" class="p-1 border btn btn btn-light flex-grow-1 w-100">
+                                    <img alt="wireTransfer_logo" src="assets/images/wireTransfer_logo.png" class="mw-100">
+                                </button>
+                                <button type="button" class="p-1 border btn btn btn-light flex-grow-1 w-100">
+                                    <img alt="qiwi" src="assets/images/qiwi.png" class="mw-100">
+                                </button>
+                                <button type="button" class="p-1 border btn btn btn-light flex-grow-1 w-100">
+                                    <img alt="yandexMoney" src="assets/images/yandexMoney.png" class="mw-100">
+                                </button>
+                                <button type="button" class="p-1 border btn btn btn-light flex-grow-1 w-100">
+                                    <img alt="webMoney" src="assets/images/webMoney.png" class="mw-100">
+                                </button>
+                                <button type="button" class="p-1 border btn btn btn-light flex-grow-1 w-100">
+                                    <img alt="payPal" src="assets/images/payPal.png" class="mw-100">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mx-0 mt-3">
+                        <div class="input-group justify-content-between">
+                            <div class="col-sm-5 px-0 mt-2">
+                                <div class="font-weight-bold text-muted font-size-12 opacity-07">Card number</div>
+                                <input type="text"
+                                       class="form-control border px-4 custom-field"
+                                       placeholder="____ ____ ____ ____"
+                                       aria-label="number"
+                                       aria-describedby="basic-addon1">
+                            </div>
+                            <div class="col-sm-3 px-0 mt-2">
+                                <div class="font-weight-bold text-muted font-size-12 opacity-07 text-nowrap">Expiration date</div>
+                                <input type="text"
+                                       class="form-control border text-center custom-field"
+                                       placeholder="/"
+                                       aria-label="expirationDate"
+                                       aria-describedby="basic-addon2">
+                            </div>
+                            <div class="col-sm-3 px-0 mt-2">
+                                <div class="font-weight-bold text-muted font-size-12 opacity-07">CVV</div>
+                                <input type="text"
+                                       class="form-control border px-4 custom-field"
+                                       placeholder="***"
+                                       aria-label="ccv"
+                                       aria-describedby="basic-addon3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mx-0 mb-5 flex-resp">
+                    <div class="col-5 px-0 d-flex align-items-center">
+                        <div class="d-flex align-items-center">
+                            <input class="rounded d-inline-block" type="checkbox" style="width: 20px; height: 20px;" aria-label="Checkbox for following text input">
+                            <span class="ml-2 text-nowrap">I have a coupon code</span>
+                        </div>
+                    </div>
+                    <div class="col px-0">
+                        <button type="button" class="btn btn-success w-100 py-3 text-uppercase font-weight-bold">Submit order</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg px-0">
+            <div class="p-4 border border-bottom-0 rounded" style="background: bottom / cover no-repeat url('assets/images/Subtract.png');">
+                <div>
+                    <h5 class="font-weight-bold">Summary</h5>
+                </div>
+                <div class="mt-4">
+                    <div class="d-flex mb-2">
+                        <div class="border mr-3">
+                            <img class="d-block" alt=forexTester" src="assets/images/forextTester.png" style="width: 50px; height: 50px;">
+                        </div>
+                        <div class="d-flex flex-column justify-content-between">
+                            <p class="m-0" style="font-size: 14px;">Forex Tester 4</p>
+                            <div class="d-flex align-items-center text-center">
+                                <button class="border p-0 d-flex justify-content-center align-items-center" style="width: 18px; height: 18px; background-color: transparent;">
+<!--                                    <img alt="minus" class="d-block" src="assets/images/-.png">-->
+                                    <span class="align-middle" style="line-height: 0.5">-</span>
+                                </button>
+                                <p class="font-weight-bold m-0 px-2" style="font-size: 14px;">1</p>
+                                <button class="border p-0 d-flex justify-content-center align-items-center" style="width: 18px; height: 18px; background-color: transparent;">
+<!--                                    <img alt="plus" class="d-block" src="assets/images/+.png">-->
+                                    <span class="align-middle" style="line-height: 0.5">+</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-end ml-auto">
+                            <div class="position-relative mr-2 font-weight-bold color-common" style="font-size: 14px;">
+                                $299.00
+                                <hr class="position-absolute m-0 w-100" style="top: 50%; border-top: 2px solid gray;">
+                            </div>
+                            <div class="color-primary font-weight-bold">$159.00</div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="text-body">Discount</h6>
+                        <div class="color-secondary font-weight-bold">- $140</div>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <div class="d-flex mb-2">
+                        <div class="border d-flex justify-content-center align-items-center mr-3" style="width: 50px; height: 50px;">
+                            <img class="d-block" alt=forexTester" src="assets/images/cardVIPs.png">
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <p class="m-0" style="height: 20px; font-size: 14px;">VIP Data Service</p>
+                        </div>
+                        <div class="d-flex align-items-end ml-auto">
+                            <div class="position-relative mr-2 font-weight-bold color-common" style="font-size: 14px;">
+                                $599.00
+                                <hr class="position-absolute m-0 w-100" style="top: 50%; border-top: 2px solid gray;">
+                            </div>
+                            <div class="color-primary font-weight-bold">$199.00</div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="text-body">Discount</h6>
+                        <div class="color-secondary font-weight-bold">- $400.88</div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="text-body">Payment term</h6>
+                        <div class="color-primary font-weight-bold">Annual</div>
+                    </div>
+                </div>
+                <hr class="my-4" style="border-style: dotted;">
+                <div class="mb-5">
+                    <div class="d-flex justify-content-between">
+                        <h5 class="text-body font-weight-bold">Total</h5>
+                        <h3 class="color-primary font-weight-bold">$358</h3>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="text-body">Payment term</h6>
+                        <h5 class="color-secondary font-weight-bold">- $540.88</h5>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <p class="m-0" style="font-size: 14px;">Proceeding annual payment:</p>
+                            <p class="m-0 color-common" style="font-size: 13px;">(starting from <b>8/30/2020</b>)</p>
+                        </div>
+                        <div class="color-primary font-weight-bold d-flex justify-content-center align-items-center">
+                            $199.00
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer></footer>
+
+</body>
+</html>
